@@ -1,0 +1,9 @@
+{
+    "Core": true,
+    "Admin": true,
+    "Ui": true,
+    "Post": true,
+    "Gallery": true,
+    "Member": true,
+    "Page": true
+}

@@ -1,0 +1,38 @@
+.council{
+    .title{
+        color: var(--mainblue);
+    }
+    h4{
+        color: #A9A9A9;
+    }
+    .description{
+        line-height: 1.6;
+
+    }
+}
+.about{
+    p{
+        font-size: 1.6rem;
+        text-align: justify;
+        overflow-wrap: break-word;
+    }
+    figure{
+        display: inline-block;
+        width: 50%;
+        img{
+            width: 100%;
+        }
+    }
+}
+.btn-all{
+    background-color: var(--mainblue);
+    color: var(--white);
+    box-shadow: 0 0 0 0.2rem var(--mainblue);
+
+    transition: all var(--trTime);
+    &:hover{
+        background-color: var(--white);
+        color: var(--mainblue);
+        box-shadow: 0 0 0 0.2rem var(--mainblue);
+    }
+}

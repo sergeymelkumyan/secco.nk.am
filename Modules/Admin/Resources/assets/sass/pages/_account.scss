@@ -1,0 +1,13 @@
+&.account {
+    .ant-tabs {
+        .ant-tabs-tab {
+            text-align: left;
+        }
+
+        .ant-tabs-content {
+            .ant-card {
+                border-radius: .5rem;
+            }
+        }
+    }
+}

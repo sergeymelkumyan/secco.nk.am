@@ -1,0 +1,15 @@
+.new-button {
+    padding: 7.5px 14px;
+    border-radius: .5rem !important;
+    color: white;
+    background-color: var(--blue-color);
+
+    span {
+        margin-left: .5rem !important;
+    }
+}
+
+.ant-btn-primary {
+    background-color: var(--blue-color);
+    color: white;
+}

@@ -1,0 +1,13 @@
+.search-result{
+    min-height: calc(100vh - 400px);
+    .card {
+        box-shadow: 0 0 5px var(--mainblue);
+        .card-body{
+            .card-title{
+                color: var(--mainblue);
+                font-size: 1.5rem;
+                margin-bottom: 0!important;
+            }
+        }
+    }
+}

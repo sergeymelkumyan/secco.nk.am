@@ -1,0 +1,21 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css",
+    "/js/admin.js": "/js/admin.js",
+    "/css/admin.css": "/css/admin.css",
+    "/js/ui-routes.js": "/js/ui-routes.js",
+    "/vendors~js/ui-routes.js": "/vendors~js/ui-routes.js",
+    "/js/admin/account.js": "/js/admin/account.js",
+    "/js/admin/dashboard.js": "/js/admin/dashboard.js",
+    "/js/admin/forgot.js": "/js/admin/forgot.js",
+    "/js/admin/login.js": "/js/admin/login.js",
+    "/js/admin/media.js": "/js/admin/media.js",
+    "/js/admin/not-found.js": "/js/admin/not-found.js",
+    "/js/admin/reset.js": "/js/admin/reset.js",
+    "/js/admin/about.js": "/js/admin/about.js",
+    "/js/admin/documents.js": "/js/admin/documents.js",
+    "/js/admin/galleries.js": "/js/admin/galleries.js",
+    "/js/admin/history.js": "/js/admin/history.js",
+    "/js/admin/members.js": "/js/admin/members.js",
+    "/js/admin/posts.js": "/js/admin/posts.js"
+}
