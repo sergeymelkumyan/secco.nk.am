@@ -20,17 +20,16 @@ const AppFooter = ( { translate } ) => {
                     <h4>{ translate( 'contact' ) }</h4>
                     <Row>
                         <Col md={ 6 }>
-                            {/*<h5>{ translate( 'contact1' ) }</h5>*/ }
-                            <h5>Քարտուղարություն</h5>
+                            <h5>{ translate( 'contact1' ) }</h5>
                             <p><a className={ 'text-white' }
                                   href="mailto:secretariat@secco.nk.am">secretariat@secco.nk.am</a>
                             </p>
-                            <p><a className={ 'text-white' } href="tel:+374974464">+374 97 44 64</a></p>
+                            <p><a className={ 'text-white' } href="tel:+37447974464">+374 47 97 44 64</a></p>
                         </Col>
                         <Col md={ 6 }>
                             <h5>{ translate( 'contact2' ) }</h5>
                             <p><a className={ 'text-white' } href="mailto:press@secco.nk.am">press@secco.nk.am</a></p>
-                            <p><a className={ 'text-white' } href="tel:+374974464">+374 97 44 64</a></p>
+                            <p><a className={ 'text-white' } href="tel:+37447974454">+374 47 97 44 54</a></p>
                         </Col>
                     </Row>
                 </Col>

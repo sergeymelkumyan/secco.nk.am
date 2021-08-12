@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    <meta property="og:image" content="{{asset('images/icon1.png')}}" />
     <title>Անվտանգության խորհրդի գրասենյակ</title>
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link rel="icon" href="{{asset('images/favicon.ico')}}" type="image/x-icon" />

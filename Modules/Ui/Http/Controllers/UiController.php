@@ -102,7 +102,7 @@ class UiController extends Controller
     public function post($slug)
     {
         $post = $this->postRepository->findByField('slug', $slug)->first();
-        $others = $this->postRepository->where('id', '!=', $post->id)->limit(5)->get();
+        $others = $this->postRepository->where('id', '!=', $post->id)->orderBy('date', 'desc')->limit(5)->get();
         return response()->json(
             [
                 'post' => new PostUiResource($post),
