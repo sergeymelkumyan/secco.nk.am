@@ -28,5 +28,9 @@
     "/js/post.js": "/js/post.js",
     "/css/post.css": "/css/post.css",
     "/js/ui-routes.js": "/js/ui-routes.js",
-    "/vendors~js/ui-routes.js": "/vendors~js/ui-routes.js"
+    "/vendors~js/ui-routes.js": "/vendors~js/ui-routes.js",
+    "/vendors~js/admin/about~js/admin/account~js/admin/documents~js/admin/galleries~js/admin/history~js/ad~f66bad16.js": "/vendors~js/admin/about~js/admin/account~js/admin/documents~js/admin/galleries~js/admin/history~js/ad~f66bad16.js",
+    "/vendors~js/admin/media~js/admin/posts.js": "/vendors~js/admin/media~js/admin/posts.js",
+    "/vendors~js/admin/media.js": "/vendors~js/admin/media.js",
+    "/vendors~js/admin/not-found.js": "/vendors~js/admin/not-found.js"
 }
