@@ -1,5 +1,10 @@
 /node_modules
 /Modules/Admin/node_modules
+/Modules/Core/node_modules
+/Modules/Gallery/node_modules
+/Modules/Member/node_modules
+/Modules/Page/node_modules
+/Modules/Post/node_modules
 /Modules/Ui/node_modules
 /public/hot
 /public/storage
@@ -13,3 +18,5 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
+package-lock.json
+composer.lock

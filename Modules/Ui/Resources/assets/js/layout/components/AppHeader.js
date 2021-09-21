@@ -70,7 +70,7 @@ const AppHeader = ({translate}) => {
                             <CustomLink url={'/about'} className={'dropdown-item'}
                                         content={translate('about_the_office_of_the_sc')}
                                         navlink={true}/>
-                            <CustomLink url={'/member/the-head-of-the-artsakh-republic-security-council-office'} className={'dropdown-item'}
+                            <CustomLink url={'/member/fff-gggg'} className={'dropdown-item'}
                                         content={translate('the_office_of_the_sc')}
                                         navlink={true}/>
                         </div>

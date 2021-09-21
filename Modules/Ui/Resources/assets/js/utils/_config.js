@@ -39,6 +39,13 @@ export default {
                 component: 'History',
                 autoload: true
             },
+            sergey: {
+                path: '/sergey',
+                slug: 'sergey',
+                name: 'sergey',
+                component: 'Sergey',
+                autoload: true
+            },
             pressRelease: {
                 path: '/press-release',
                 slug: 'posts/press',

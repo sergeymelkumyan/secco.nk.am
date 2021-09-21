@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('home', 'UiController@home');
 Route::get('about', 'UiController@about');
 Route::get('history', 'UiController@history');
+Route::get('sergey', 'UiController@sergey');
 Route::get('documents', 'UiController@documents');
 Route::get('photos', 'UiController@photos');
 Route::get('photo/{slug}', 'UiController@photo');
