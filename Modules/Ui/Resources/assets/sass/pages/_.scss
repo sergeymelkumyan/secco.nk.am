@@ -1,0 +1,37 @@
+body{
+    font-family: var(--grapalat);
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--grapalatBold);
+}
+main{
+    min-height: calc(100vh - 295px);
+}
+@import "header";
+@import "home";
+@import "member";
+@import "detail";
+@import "footer";
+@import "loader";
+@import "search";
+@import "documents";
+.post{
+    .date{
+        font-size: 1.25rem;
+        color: var(--mainblue);
+    }
+    .description{
+        line-height: 1.6;
+        font-size: 1.25rem;
+        p{
+            margin-bottom: 0 !important;
+        }
+        a{
+            color: var(--mainblue);
+            text-decoration: underline;
+        }
+    }
+}
+.st-left{
+    transform: translateY(-50%);
+}

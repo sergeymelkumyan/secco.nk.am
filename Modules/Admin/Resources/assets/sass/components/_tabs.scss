@@ -1,0 +1,15 @@
+.ant-tabs {
+    .ant-tabs-tab {
+        text-align: left;
+
+        .ant-tabs-tab-btn {
+            color: var(--main-color);
+        }
+    }
+
+    .ant-tabs-content {
+        .ant-card {
+            border-radius: .5rem;
+        }
+    }
+}

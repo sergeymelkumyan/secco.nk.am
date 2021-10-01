@@ -1,0 +1,46 @@
+.docs{
+    & > h3 {
+        color: var(--mainblue);
+        font-size: 2rem;
+
+        span {
+            border-bottom: 1px solid var(--mainblue);
+            padding-bottom: .5rem;
+        }
+    }
+
+    .card {
+        box-shadow: 0 0 5px var(--mainblue);
+
+        .card-horizontal {
+            display: flex;
+            flex: 1 1 auto;
+            .card-body {
+                .card-title {
+                    color: var(--mainblue);
+                    line-height: 1.5;
+                    margin-bottom: 0;
+                }
+
+                .btn-more {
+                    background-color: var(--white);
+                    color: var(--mainblue);
+                    box-shadow: 0 0 0 0.2rem var(--mainblue);
+                    transition: all var(--trTime);
+                    svg{
+                        fill: var(--mainblue);
+                    }
+                    &:hover {
+                        background-color: var(--mainblue);
+                        color: var(--white);
+                        box-shadow: 0 0 0 0.2rem var(--mainblue);
+                        svg{
+                            fill: white;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}

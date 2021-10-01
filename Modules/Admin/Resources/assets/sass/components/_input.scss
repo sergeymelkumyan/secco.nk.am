@@ -1,0 +1,22 @@
+.ant-input-search {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 15px #E5EDF055;
+    padding: 7.5px 0 7.5px 14px;
+
+    .ant-input-suffix {
+        .ant-input-search-icon::before {
+            content: none;
+        }
+    }
+}
+
+.ant-input {
+    &:hover {
+        border-color: var(--blue-color);
+    }
+
+    &:focus {
+        border-color: var(--blue-color);
+    }
+}

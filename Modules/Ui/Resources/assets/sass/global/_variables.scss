@@ -1,0 +1,48 @@
+//!Grid Screen Sizes
+$screenXXL: 1920px;
+$screenXL: 1440px;
+$screenLg: 1199px;
+$screenMd: 992px;
+$screenS: 768px;
+
+//!Colors
+//Primary Colors
+$black: #000000;
+$white: #FFF;
+$mainblue: #29435d;
+
+//Error Color
+$errorColor: #DA3028;
+
+:root {
+    //*Screen Sizes
+    --screenXXL: #{$screenXXL};
+    --screenXL: #{$screenXL};
+    --screenLg: #{$screenLg};
+    --screenMd: #{$screenMd};
+    --screenS: #{$screenS};
+
+    //*Background Sizes
+    --bgPaddingTop: 51%;
+    --bgPaddingTopMedium: 40%;
+    --bgPaddingTopSmall: 30%;
+
+    //*Primary Colors
+    --black: #{$black};
+    --white: #{$white};
+    --mainblue: #{$mainblue};
+
+    //*Error Color
+    --errorColor: #{$errorColor};
+
+    //*Line Height
+    --lineHeight: 1.2;
+    --lineHeightS: 1.4;
+
+    //*Transition time
+    --trTime: 0.3s;
+
+    --grapalat: "GHEA Grapalat Reg";
+    --grapalatBold: "GHEA Grapalat Bold";
+}
+

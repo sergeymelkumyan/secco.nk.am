@@ -1,0 +1,33 @@
+.member{
+    h3{
+        color: var(--mainblue);
+        font-size: 2rem;
+        span{
+            border-bottom: 1px solid var(--mainblue);
+            padding-bottom: .5rem;
+        }
+    }
+    .card{
+        border: none;
+        border-bottom: 1px solid #ccc;
+        transition: all .3s ease;
+        &:hover{
+            box-shadow: 0 0 5px var(--mainblue);
+        }
+        .card-img-top{
+            max-height: 315px;
+        }
+    }
+}
+.member-detail{
+    .title{
+        color: var(--mainblue);
+    }
+    h4{
+        color: #A9A9A9;
+    }
+    .description{
+        line-height: 1.6;
+
+    }
+}

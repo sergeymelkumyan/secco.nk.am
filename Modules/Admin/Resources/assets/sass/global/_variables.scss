@@ -1,0 +1,12 @@
+$main-color: #34335B;
+$blue-color: #4222F1;
+$gray-color: #F8FAFB;
+$dark-gray-color: #EEF1F4;
+
+
+:root {
+    --main-color: #{$main-color};
+    --blue-color: #{$blue-color};
+    --gray-color: #{$gray-color};
+    --dark-gray-color: #{$dark-gray-color};
+}
