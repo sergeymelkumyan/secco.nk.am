@@ -16,7 +16,11 @@ const Member = ({members, translate}) => {
                 <Row>
                     <Container>
                         <Row>
-                            {members.map((member, key) => (
+                            {members.filter(function (excludeKey) {
+                                if (excludeKey.slug == 'president-of-the-artsakh-republic-chairman-of-the-security-council') {
+                                    return false;
+                                } return true;
+                            }).map((member, key) => (
                                 <Col key={key} md={4} className={'mb-3'}>
                                     <Card className={'h-100'}>
                                         <Card.Img variant="top" src={member.image} alt={member.title}/>
